@@ -33,6 +33,6 @@ Therefore whether it is full or not, and also optimise its stops further if we k
 
 
 # FUTURE TASKS:
-[ ] Create a GUI to input the characteristics of your building (for the probability of each floor...) and to view the elevators move, people pop in etc.
+[] Create a GUI to input the characteristics of your building (for the probability of each floor...) and to view the elevators move, people pop in etc.
 [ ] Find some images & videos of elevator cameras
 [ ] Research how to do computer vision to recognize volume/area...
