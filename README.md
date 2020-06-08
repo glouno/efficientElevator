@@ -12,7 +12,7 @@ First, we have to build a simulator to reproduce the flow of people in a buildin
 - So far using a time t for the simulation works, but in the future with a GUI I want to have an infinite loop with a stop button
 
 ### v2: weighted random:
-[ ] put weights to have a different probability for each floor
+- [ ] put weights to have a different probability for each floor
 
 # B. Elevator algorithm
 Second, now that we have a well-functioning flow of people in a building, we can build the algorithms to compare the rate between different setups; for example: one with a "traditional" lift algorithm, and another one with one more data point: **the space available** in the lift, where if the lift is full, we prioritise the floors called within the lift car in order to maximise output and avoid the lift stopping at a floor called from outside where nobody can go in/out.
@@ -26,13 +26,13 @@ The next step to implement this in real life is to use the onboard camera of the
 Therefore whether it is full or not, and also optimise its stops further if we know the number of people on each floor...
 
 # CURRENT TASKS:
-[x] Figured out how to use git :facepalm:
-[x] Created a README ;) :wink:
-[ ] Try using random.sample() or random.choice() to put weights on the probability for each floor
-[ ] Post a graph on the README to describe the probability (weights) for each floor
+- [x] Figured out how to use git :facepalm:
+- [x] Created a README ;) :wink:
+- [ ] Try using random.sample() or random.choice() to put weights on the probability for each floor
+- [ ] Post a graph on the README to describe the probability (weights) for each floor
 
 
 # FUTURE TASKS:
-[ ] Create a GUI to input the characteristics of your building (for the probability of each floor...) and to view the elevators move, people pop in etc.
-[ ] Find some images & videos of elevator cameras
-[ ] Research how to do computer vision to recognize volume/area...
+- [ ] Create a GUI to input the characteristics of your building (for the probability of each floor...) and to view the elevators move, people pop in etc.
+- [ ] Find some images & videos of elevator cameras
+- [ ] Research how to do computer vision to recognize volume/area...
